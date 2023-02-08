@@ -1,5 +1,5 @@
 if(INERY_CDT_ROOT STREQUAL "" OR NOT INERY_CDT_ROOT)
-   set(INERY_CDT_ROOT "/home/dusan/Desktop/Inery.cdt/build")
+   set(INERY_CDT_ROOT "/petar/inery.cdt/build")
 endif()
 
 list(APPEND CMAKE_MODULE_PATH ${INERY_CDT_ROOT}/lib/cmake/inery.cdt)
